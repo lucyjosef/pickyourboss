@@ -1,0 +1,14 @@
+#INCLUDE
+Ajout-client:Lucy
+Ajout-firm:Adrien
+Ajout-job:
+Ajout-skill-P:
+Ajout-skill-S:
+Connect:
+
+
+#STRUCTURE
+PageAcceuil:
+Dashboard-client:
+Dashboard-frim:
+Dashboard-admin:
