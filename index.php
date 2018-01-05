@@ -5,7 +5,7 @@
                 <!-- BLABLABLA with floors -->
                 
             </div>
-            <?php include('include/form_client.php'); ?>
+            <?php include('include/form_status.php'); ?>
         </div>
     </body>
 </html>
