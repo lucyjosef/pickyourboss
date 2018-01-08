@@ -1,4 +1,4 @@
-<form action="form_pro.php" method="POST">
+<form action="test.php" method="POST">
     <label for="last_name">Nom :</label>
     <input type="text" name="last_name" placeholder="Votre nom">
 
@@ -23,7 +23,7 @@
 <?php
 
 if (isset($_POST['sub'])) {
-  require_once('connect.php');
+  require_once('include/requetes.php');
   $insertpro = $dbh->prepare("INSERT INTO user ( last_name, first_name, email, password, domain)
               VALUES (:last_name, :first_name, :email, :password, :domain)");
       $insertpro->execute(array(

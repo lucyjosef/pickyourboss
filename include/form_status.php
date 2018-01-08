@@ -16,11 +16,11 @@
         if(isset($_POST['submit'])) {
             if($_POST['status'] == 'particulier') {
                 echo 'Vous êtes un.e ' . $_POST['status'] . '. Veuillez remplir les champs suivants.';
-                include('./form_client.php');
+                include('form_client.php');
             }
             elseif($_POST['status'] == 'pro') {
                 echo 'Vous êtes un.e ' . $_POST['status'] . '. Veuillez remplir les champs suivants.';
-                include('./form_pro.php');
+                include('form_pro.php');
             }
         }
         ?>
